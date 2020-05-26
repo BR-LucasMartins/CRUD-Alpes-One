@@ -4,7 +4,7 @@
 ## Sobre o Sistema
 
 
-<p> O sistema é um CRUD Simples de controle de usuário feito com laravbel 5.6. Optei por um CRUD de usuários por não conter campos específicos de formatação como datas e moedas. O projeto está na arquitetura MVC, onde todos os fluxos das rotas passam pelo controller da aplicação e são exibidos nas viwes. </p>
+<p> O sistema é um CRUD Simples de controle de usuário feito com laravbel 5.6. Optei por um CRUD de usuários por não conter campos de formatação específicos como datas e moedas. O projeto está na arquitetura MVC, onde todos os fluxos das rotas passam pelo controller da aplicação e são exibidos nas views. </p>
 
 ## Informações Importantes
 
