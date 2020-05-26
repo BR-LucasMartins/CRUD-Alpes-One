@@ -1,34 +1,20 @@
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
 
-## About Laravel
-## About Laravel
-
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
-
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
-
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications.
-
-## Learning Laravel
+## Sobre o Sistema
 
 
-O sistema é um CRUD Simples de controle de usuário feito com laravbel 5.4.
-Optei por um CRUD de usários pelo fato dos campos serem simples e não precisarem de formatação como datas e moedas.
+<p> O sistema é um CRUD Simples de controle de usuário feito com laravbel 5.6. Optei por um CRUD de usuários por não conter campos específicos de formatação commo datas e moedas. <p>
 
-Dentro da pasta raiz tem um arquivo chamado "DB_teste.sql", é a imagem do banco com alguns dados preenchidos. Você ponde importar esse banco para dendro do 
+## Informações importantes
+
+<p> Como o código foi feito com laravel é necessário o uso do composer. eu uso o software Laragon que auxilia muito o trabalho com laravel <p>
+  
+  <strong> ao clonar o repositório no github, alguns passos necessários para que o código execute perfeitamente:<strong>
+      
+  <ul> Abrir o terminal dentro da pasta raíz da aplicação e executar o comando: <strong> composer update <strong>. (para baixar a os arquivos e dependências da pasta vendor). <ul>
+
+<p> dentro da pasta raíz da aplicação têm o arquivo <bold>"BD_teste.sql"<bold>. este arquivo é um anco já populado via factory para testes é a forma  mais simples. caso contrário criar uma banco chamado "CRUD-Alpes_One" e executar as migrations via php artisan no terminal. <p>
 
 
 
