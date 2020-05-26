@@ -21,6 +21,12 @@
 - Executar o comando: <strong> php artisan key:generate </strong> dentro do diretório raíz da aplicação, para gerar uma nova chave de validação para o projeto.
 
 
+
+
+
+
+
+
 ## Informações adicionais
 
 - Alguns recursos como os arquivos do bootstrap e js são referenciados dentro da própria aplicação, porém alguns outros como jQuery, e os recursos de máscaras dos formulários são carregadas via CDN, então requer uma conexão com a internet para que estes recursos sejam carregados corretamente.
